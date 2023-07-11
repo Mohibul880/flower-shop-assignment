@@ -1,37 +1,22 @@
 *{
     margin: 0;
 }
-.header{
-    
-}
-.firstpage{
-    
-}
-/* section one decoration  */
-.sectionone{
+
+
+.banner{
     width: 1920px;
-    height: 850px;
-    background: rgba(235, 10, 59, 0.1);
+height: 850px;
+background-color: rgba(194, 13, 52, 0.1) ;
+git
 
+    
 }
-/* heading style */
 .headingstyle{
-    display: flex;
-width: 708px;
-flex-direction: column;
-
     color: #272727;
 font-family: Lato;
 font-size: 80px;
-
 font-weight: 800;
-padding: 197px 240px 365px ;
-margin-bottom: 5px;
+padding: 197px 240px 365px 972px;
 
-}
-.peratext{
-    color: rgba(39, 39, 39, 0.60);
-font-family: Lato;
-padding: 240px 517px 243px ;
 
 }
