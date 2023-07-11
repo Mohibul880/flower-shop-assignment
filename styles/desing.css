@@ -1,22 +1,200 @@
-*{
-    margin: 0;
+/* common shared styles
+ */
+ body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+ }
+
+ .text-primary{
+    color: #FD6E0A;
+ }
+ .btn-primary{
+    border-radius: 8px;
+background: #E55473;
+border: 0;
+color: aliceblue;
+font-size: 20px;
+font-weight: 700;
+padding: 15px 35px;
+ }
+
+/* nav related styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    margin: 0 200px;
+}
+.nav-title{
+    color: #181818;
+
+font-size: 45px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: #474747;
+}
+.header{
+    background-color: rgba(229, 84, 115, 0.10);
+    
+    background-position: bottom right;
+}
+.banner{
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+ .banner .profile-pic{
+    width: 500px;
+    
+  
+ }
+.banner-content{
+    max-width: 500px;
+    
+
+}
+
+.banner-titale{
+    font-size: 80px;
+font-weight: 800;
+color: #272727;
+margin-top: 5px;
+margin-bottom: 20px;
+}
+/* main section styles */
+/* about section styles */
+.section-title{
+    color:, #181818;
+text-align: center;
+font-family: Open Sans;
+font-size: 35px;
+
+font-weight: 700;
+line-height: normal;
+}
+.our-f{
+    padding: 130px;
+    border-radius: 10px;
+background: #FFF8F3;
+margin: 130px 0;
+}
+.section-description{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 15px;
+font-weight: 200;
+line-height: 20px;
+
+}
+/* main section styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+main section{
+    margin-top: 130px;
+}
+.Our-Featured-Flowers{
+    display: flex;
+    justify-content: space-around;
+
+}
+.about-info{
+    text-align: center;
+
+
+}
+.info-desceiption{
+    color: #474747;
+font-size: 20px;
+
 }
 
 
-.banner{
-    width: 1920px;
-height: 850px;
-background-color: rgba(194, 13, 52, 0.1) ;
-git
+/* skills related styles */
+.skills-container{
+    display: flex;
+    gap:24px
 
+}
+.sills{
+    padding: 30px;
+    border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skills-description{
+    /* padding: 30px; */
+    color: #757575;
+}
+/* resume section styles */
+.resume-column-title{
+    color:  #474747;
+
+font-size: 30px;
+
+font-weight: 700;
+
+}
+/* Hot Deal */
+.Hot-Deal{
+    text-align: center;
+
+}
+.off{
+    color: #E55473;
+}
+.hot-description{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+
+font-size: 10px;
+
+font-weight: 400;
+line-height: 30px;
+}
+
+.button-position{
+    
+    text-align: center;
+    border-radius: 8px;
+background: #E55473;
+border: 0;
+color: aliceblue;
+font-size: 20px;
+font-weight: 700;
+padding: 15px 35px;
     
 }
-.headingstyle{
-    color: #272727;
-font-family: Lato;
-font-size: 80px;
-font-weight: 800;
-padding: 197px 240px 365px 972px;
-
-
+.hot-deal-sec{
+    display: flex;
+    text-align: center;
+    border-radius: 8px;
+    background: rgba(192, 10, 86, 0.05);
+    padding: 25px;
+    align-items: center;
+    border: 0;
+    width: 400vw;
+    margin: 0;
+}
+.img-red{
+    margin-left: 18rem;
+}
+.hot-haed{
+    align-items: center;
+    padding-left: 5rem;
 }
