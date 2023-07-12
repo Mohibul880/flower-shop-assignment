@@ -49,6 +49,44 @@ nav a{
     
     background-position: bottom right;
 }
+/* Header part starts */
+.header-main {
+    height: 80vh;
+    background: rgba(229, 84, 115, 0.10);
+  }
+  
+  .all-header-contents {
+    display: flex;
+    justify-content: space-between;
+    height: 80vh;
+  }
+  
+  .header-texts {
+    padding-top: 10vh;
+    flex: 70%;
+    text-align: left;
+    padding-bottom: 10vh;
+  }
+  
+  .header-texts h1 {
+    font-weight: 900;
+    font-size: 55px;
+    padding-bottom: 13px;
+  }
+  
+  .header-texts p {
+    font-weight: 400;
+    font-size: 13px;
+    padding-bottom: 13px;
+  }
+  
+  .header-image {
+    flex: 30%;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  
 .banner{
     padding: 30px 30px 0px 150px;
     display: flex;
@@ -69,13 +107,13 @@ nav a{
 
 .banner-titale{
     font-size: 80px;
-font-weight: 800;
+font-weight: 700;
 color: #272727;
 margin-top: 5px;
 margin-bottom: 20px;
 }
 /* main section styles */
-/* about section styles */
+
 .section-title{
     color:, #181818;
 text-align: center;
@@ -85,12 +123,87 @@ font-size: 35px;
 font-weight: 700;
 line-height: normal;
 }
-.our-f{
-    padding: 130px;
-    border-radius: 10px;
-background: #FFF8F3;
-margin: 130px 0;
-}
+/* Section-1 Featured flowers style starts */
+.featured-flower-sect {
+    height: 100vh;
+    padding-top: 15vh;
+    text-align: center;
+    
+  }
+  
+  .featured-flower-sect h2 {
+    font-weight: 00;
+    font-size: 30px;
+    padding-bottom: 11px;
+  }
+  
+  .featured-flower-sect p {
+    font-weight: 400;
+    font-size: 13px;
+    padding-bottom: 35px;
+  }
+.featured-one {
+    display: flex;
+    justify-content: space-between;
+    height: 55vh;
+    gap: 10px;
+  }
+  
+  .featured-image {
+    flex: 35%;
+    width: 40px;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 300px 300px 0px 0px;
+    padding: 50px 50px 0 50px;
+  }
+  
+  .first-featured-image {
+    background: rgba(167, 33, 98, 0.15);
+  }
+  
+  .second-featured-image {
+    background: rgba(5, 151, 160, 0.15);
+  }
+  
+  .third-featured-image {
+    background: rgba(71, 125, 17, 0.15);
+  }
+  
+  .featured-flower-title {
+    padding-top: 8vh;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .featured-flower-title p {
+    font-weight: 700;
+    font-size: 15px;
+    text-decoration: underline;
+  }
+  /* full Section-2 24/7 supports banner style starts */
+
+.supprot-section-container {
+    display: flex;
+    justify-content: space-around;
+    height: 40vh;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    padding: 0 70px;
+    margin-bottom: 10vh;
+  }
+  
+  .supprot-section-container img {
+    width: 50px;
+    padding-bottom: 10px;
+  }
+  
+  .supprot-section-container p {
+    font-weight: 600;
+    font-size: 16px;
+  }
 .section-description{
     color: rgba(39, 39, 39, 0.60);
 text-align: center;
@@ -118,83 +231,164 @@ main section{
 
 
 }
-.info-desceiption{
-    color: #474747;
-font-size: 20px;
-
-}
-
-
-/* skills related styles */
-.skills-container{
-    display: flex;
-    gap:24px
-
-}
-.sills{
-    padding: 30px;
-    border-radius: 5px;
-background: #FFF;
-box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
-}
-.skills-description{
-    /* padding: 30px; */
-    color: #757575;
-}
-/* resume section styles */
-.resume-column-title{
-    color:  #474747;
-
-font-size: 30px;
-
-font-weight: 700;
-
-}
-/* Hot Deal */
-.Hot-Deal{
+/* Section-3 Hot deal section style starts*/
+.hot-deal-section {
+    border-radius: 10px;
+    background: rgba(229, 84, 115, 0.05);
+    height: 80vh;
     text-align: center;
-
-}
-.off{
+  }
+  
+  .hot-deal-contents {
+    padding-top: 8vh;
+    display: flex;
+    justify-content: space-around;
+    height: 50vh;
+    align-items: center;
+  }
+  
+  .hot-deal-contents h2 {
+    font-weight: 900;
+    font-size: 30px;
+    padding-bottom: 11px;
+  }
+  
+  .hot-deal-contents p {
+    font-weight: 400;
+    font-size: 13px;
+    padding-bottom: 13px;
+  }
+  
+  .hot-deal-image {
+    width: 300px;
+    height: auto;
+    object-fit: contain;
+  }
+  .off{
     color: #E55473;
-}
-.hot-description{
-    color: rgba(39, 39, 39, 0.60);
-text-align: center;
+  }
+/* Section-4 Instagram section style starts */
 
-font-size: 10px;
-
-font-weight: 400;
-line-height: 30px;
-}
-
-.button-position{
-    
+.instagram-sect {
+    height: 75vh;
     text-align: center;
-    border-radius: 8px;
-background: #E55473;
-border: 0;
-color: aliceblue;
-font-size: 20px;
-font-weight: 700;
-padding: 15px 35px;
-    
-}
-.hot-deal-sec{
+    padding-top: 15vh;
+  }
+  
+  .instagram-sect h2 {
+    font-weight: 800;
+    font-size: 30px;
+    padding-bottom: 11px;
+  }
+  
+  .instagram-sect p {
+    font-weight: 400;
+    font-size: 13px;
+    padding-bottom: 35px;
+  }
+  
+  .insta-container {
     display: flex;
+justify-content: space-between;
+    height: 30vh;
+  }
+  
+  .insta-image-1{
+    flex: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .insta-image-2{
+    flex: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .insta-image-3{
+    flex: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .insta-image-4 {
+    flex: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  /* Section-5 Get Latest Deal section style starts */
+.get-latest-deal-sec {
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+  }
+  
+  .get-deal-active-part {
+    border-radius: 10px;
+    background-image: url('../img/Rectangle\ 9.png');
+    background-color: lightgray;
+    background-size: cover;
+    height: 35vh;
+    background-repeat: no-repeat;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .get-deal-active-part h2 {
+    font-weight: 800;
+    font-size: 30px;
+    padding-bottom: 11px;
+  }
+  
+  .get-deal-active-part p {
+    font-weight: 400;
+    font-size: 13px;
+    padding-bottom: 35px;
+  }
+  
+  .get-deal-active-part input {
+    width: 450px;
+    padding-left: 15px;
+    margin-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: none;
     border-radius: 8px;
-    background: rgba(192, 10, 86, 0.05);
-    padding: 25px;
+    background: #FFF;
+    color: rgba(255, 255, 255, 1);
+  }
+
+  /* Footer style starts */
+.footer-part {
+    height: 60vh;
+    background-color: #111010;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    border: 0;
-    width: 400vw;
-    margin: 0;
-}
-.img-red{
-    margin-left: 18rem;
-}
-.hot-haed{
-    align-items: center;
-    padding-left: 5rem;
-}
+    text-align: center;
+  }
+  
+  .footer-part h1 {
+    font-weight: 800;
+    font-size: 30px;
+    padding-bottom: 15px;
+    color: white;
+  }
+  
+  .footer-part p {
+    font-weight: 400;
+    font-size: 11px;
+    padding-bottom: 35px;
+    color: rgba(255, 255, 255, 0.9);
+    font-stretch: semi-expanded;
+  }
+  
+  .footer-part small {
+    font-stretch: semi-expanded;
+    font-weight: 400;
+    font-size: 9px;
+    color: rgba(255, 255, 255, 0.4)
+  }
